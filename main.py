@@ -7,7 +7,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
 # Streamlit app
-st.title("tehreemmalikkkkk-english-to-roman-urdu ")
+st.title("tehreemmalikkkkk/your-username-english-to-roman-urdu")
 
 # Input prompt
 input_text = st.text_area("Enter English text:")
